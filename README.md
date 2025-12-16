@@ -1,43 +1,53 @@
 # CyberCasino
-CyberCasino is a group project done for the Web Application course at university.
-<br />
 
-### Members
+![CyberCasino Homepage](src/assets/images/homepage.png)
+
+## Overview
+CyberCasino is a comprehensive web application developed as a group project for the Web Application university course. It features various casino games including Blackjack, Roulette, and Slot Machines, all built with a modern Angular frontend.
+
+## Members
 - Ernesto Cesario
 - Daniele Galasso
 - Domenico Visciglia
 - Federico Di Franco
 
-<br />
+## Technologies Used
+- **Frontend:** Angular 17
+- **Styling:** Bootstrap 5, SCSS
+- **State/Logic:** TypeScript, RxJS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
+## Getting Started
 
-## Development server
+### Prerequisites
+- Node.js
+- NPM (Node Package Manager)
+- Angular CLI (`npm install -g @angular/cli`)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd CYBER-CASINO
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Development Server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
+### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## Assets License
+## License
 This project contains some assets for which attribution is required:
-- slot machine elements use images by upklyak taken on freepik at https://www.freepik.com/upklyak
-- slot machine sfx are taken from Pierre Cartoon Sounds at https://freesound.org/people/pierrecartoons1979/
-- horse race images were created by KITSANTAS FOTIOS
+- Slot machine elements use images by upklyak taken on freepik at [freepik.com](https://www.freepik.com/upklyak)
+- Slot machine sfx are taken from Pierre Cartoon Sounds at [freesound.org](https://freesound.org/people/pierrecartoons1979/)
+- Horse race images were created by KITSANTAS FOTIOS
